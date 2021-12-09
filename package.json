@@ -1,24 +1,19 @@
 {
   "name": "node-ts-template",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Put your project description here",
+  "main": "src/index.ts",
   "scripts": {
     "build": "tsc -p .",
     "dev": "env-cmd -f .env nodemon src/index.ts",
     "start": "ts-node src/index.ts"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/migueladanrm/node-ts-template.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/migueladanrm/node-ts-template/issues"
-  },
-  "homepage": "https://github.com/migueladanrm/node-ts-template#readme",
+  "keywords": [
+    "template",
+    "ts"
+  ],
+  "author": "Miguel Rivas",
+  "license": "MIT",
   "devDependencies": {
     "@types/debug": "^4.1.7",
     "@types/node": "^16.11.12",
